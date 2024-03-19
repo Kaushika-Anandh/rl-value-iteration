@@ -8,10 +8,21 @@ The FrozenLake environment in OpenAI Gym is a gridworld problem that challenges 
 
 ### States
 - 5 Terminal States:
-    - `G` (Goal): The state the agent aims to reach.
-    - `H` (Hole): A hazardous state that the agent must avoid at all costs.
+    - `G` (Goal): 
+      - The state the agent aims to reach. 
+      - In this MDP the goal state is `state 0`
+    - `H` (Hole): 
+      - A hazardous state that the agent must avoid at all costs.
+      - In this MDP the goal state is 
+        - `state 3`
+        - `state 7`
+        - `state 8`
+        - `state 13`
+
 - 11 Non-terminal States:
-    - `S` (Starting state): The initial position of the agent.
+    - `S` (Starting state): 
+      - The initial position of the agent.
+      - In this MDP the goal state is `state 5`
     - `Intermediate states`: Grid cells forming a layout that the agent must traverse.
 
 ### Actions
