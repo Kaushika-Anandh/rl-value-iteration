@@ -48,7 +48,7 @@ This uncertainty adds complexity to the agent's navigation.
 The episode terminates when the agent reaches the goal state `G` or falls into a hole `H`.
 
 ### Graphical Representation.
-![](1.PNG)
+![](1.PNG)   
 
 ## VALUE ITERATION ALGORITHM
 - Value iteration is a method of computing an optimal MDP policy  and its value.
